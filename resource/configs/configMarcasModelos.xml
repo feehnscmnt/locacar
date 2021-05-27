@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infosVeiculos>
+	<marca nomeMarca="CHEVROLET">
+		<modelo>A10</modelo>
+		<modelo>A20</modelo>
+		<modelo>ADVANCED DESIGN</modelo>
+		<modelo>AGILE</modelo>
+		<modelo>ASTRA</modelo>
+		<modelo>AVALANCHE</modelo>
+		<modelo>BEL AIR</modelo>
+		<modelo>BLAZER</modelo>
+		<modelo>BONANZA</modelo>
+		<modelo>BRASIL</modelo>
+		<modelo>BRASINCA</modelo>
+		<modelo>C10</modelo>
+		<modelo>C14</modelo>
+		<modelo>A15</modelo>
+		<modelo>C20</modelo>
+		<modelo>CALIBRA</modelo>
+		<modelo>CAMARO</modelo>
+		<modelo>CAPRICE</modelo>
+		<modelo>CAPTIVA</modelo>
+		<modelo>CARAVAN</modelo>
+		<modelo>CAVALIER</modelo>
+		<modelo>CELTA</modelo>
+		<modelo>CHEVELLE</modelo>
+		<modelo>CHEVETTE</modelo>
+		<modelo>CHEVY 500</modelo>
+		<modelo>CHEYENNE</modelo>
+		<modelo>CLASSIC</modelo>
+		<modelo>COBALT</modelo>
+		<modelo>CORSA</modelo>
+		<modelo>CORVETTE</modelo>
+		<modelo>CORVETTE GRAND SPORT</modelo>
+		<modelo>CRUZE</modelo>
+		<modelo>D10</modelo>
+		<modelo>D20</modelo>
+		<modelo>D40</modelo>
+		<modelo>DE LUXE</modelo>
+		<modelo>EL CAMINO</modelo>
+		<modelo>FLEETMASTER</modelo>
+		<modelo>GRAND BLAZER</modelo>
+		<modelo>HHR</modelo>
+		<modelo>IMPALA</modelo>
+		<modelo>IPANEMA</modelo>
+		<modelo>KADETT</modelo>
+		<modelo>LUMINA</modelo>
+		<modelo>MALIBU</modelo>
+		<modelo>MARAJÓ</modelo>
+		<modelo>MERIVA</modelo>
+		<modelo>MONTANA</modelo>
+		<modelo>MONZA</modelo>
+		<modelo>OMEGA</modelo>
+		<modelo>ONIX</modelo>
+		<modelo>OPALA</modelo>
+		<modelo>PICKUP</modelo>
+		<modelo>PRISMA</modelo>
+		<modelo>RAMONA</modelo>
+		<modelo>S10</modelo>
+		<modelo>SILVERADO</modelo>
+		<modelo>SONIC</modelo>
+		<modelo>SPACE VAN</modelo>
+		<modelo>SPIN</modelo>
+		<modelo>SPORT VAN</modelo>
+		<modelo>SS</modelo>
+		<modelo>SSR</modelo>
+		<modelo>STYLELINE</modelo>
+		<modelo>SUBURBAN</modelo>
+		<modelo>SUPREMA</modelo>
+		<modelo>TAHOE</modelo>
+		<modelo>TIGRA</modelo>
+		<modelo>TRACKER</modelo>
+		<modelo>TRAFIC</modelo>
+		<modelo>TRAILBLAZER</modelo>
+		<modelo>VECTRA</modelo>
+		<modelo>VERANEIO</modelo>
+		<modelo>ZAFIRA</modelo>
+	</marca>
+	<marca nomeMarca="CITROEN">
+		<modelo>AIRCROSS</modelo>
+		<modelo>BERLINGO</modelo>
+		<modelo>C3</modelo>
+		<modelo>C3 SONORA</modelo>
+		<modelo>C4</modelo>
+		<modelo>C4 GRAND PICASSO</modelo>
+		<modelo>C4 LOUNGE</modelo>
+		<modelo>C4 PICASSO</modelo>
+		<modelo>C5</modelo>
+		<modelo>C6</modelo>
+		<modelo>C8</modelo>
+		<modelo>DS3</modelo>
+		<modelo>DS4</modelo>
+		<modelo>DS5</modelo>
+		<modelo>GRAND C4</modelo>
+		<modelo>JUMPER</modelo>
+		<modelo>TRACTION AVANT</modelo>
+		<modelo>XANTIA</modelo>
+		<modelo>XM</modelo>
+		<modelo>XSARA</modelo>
+		<modelo>XSARA PICASSO</modelo>
+	</marca>
+	<marca nomeMarca="FIAT">
+		<modelo>124</modelo>
+		<modelo>147</modelo>
+		<modelo>500</modelo>
+		<modelo>ARGO</modelo>
+		<modelo>BRAVA</modelo>
+		<modelo>BRAVO</modelo>
+		<modelo>CINQUECENTO</modelo>
+		<modelo>COUPE</modelo>
+		<modelo>CRONOS</modelo>
+		<modelo>DOBLO</modelo>
+		<modelo>DUCATO</modelo>
+		<modelo>ELBA</modelo>
+		<modelo>FIORINO</modelo>
+		<modelo>FREEMONT</modelo>
+		<modelo>GRAND SIENA</modelo>
+		<modelo>IDEA</modelo>
+		<modelo>LINEA</modelo>
+		<modelo>MAREA</modelo>
+		<modelo>MOBI</modelo>
+		<modelo>PALIO</modelo>
+		<modelo>PREMIO</modelo>
+		<modelo>PUNTO</modelo>
+		<modelo>SIENA</modelo>
+		<modelo>SPAZIO</modelo>
+		<modelo>STILO</modelo>
+		<modelo>STRADA</modelo>
+		<modelo>TEMPRA</modelo>
+		<modelo>TIPO</modelo>
+		<modelo>TORO</modelo>
+		<modelo>UNO</modelo>
+	</marca>
+	<marca nomeMarca="FORD">
+		<modelo>A</modelo>
+		<modelo>BELINA</modelo>
+		<modelo>CORCEL</modelo>
+		<modelo>CORCEL II</modelo>
+		<modelo>COURIER</modelo>
+		<modelo>CROWN VICTORIA</modelo>
+		<modelo>CUPE</modelo>
+		<modelo>DEL REY</modelo>
+		<modelo>ECOSPORT</modelo>
+		<modelo>EDGE</modelo>
+		<modelo>ESCORT</modelo>
+		<modelo>EXPEDITION</modelo>
+		<modelo>EXPLORER</modelo>
+		<modelo>F-1</modelo>
+		<modelo>F-100</modelo>
+		<modelo>F-1000</modelo>
+		<modelo>F-150</modelo>
+		<modelo>F-250</modelo>
+		<modelo>F-350</modelo>
+		<modelo>F-4000</modelo>
+		<modelo>F-75</modelo>
+		<modelo>FAIRLANE</modelo>
+		<modelo>FIESTA</modelo>
+		<modelo>FLEX</modelo>
+		<modelo>FOCUS</modelo>
+		<modelo>FURGLAINE</modelo>
+		<modelo>FUSION</modelo>
+		<modelo>GALAXIE</modelo>
+		<modelo>GT</modelo>
+		<modelo>JEEP</modelo>
+		<modelo>KA</modelo>
+		<modelo>KA +</modelo>
+		<modelo>LANDAU</modelo>
+		<modelo>MAVERICK</modelo>
+		<modelo>MONDEO</modelo>
+		<modelo>MUSTANG</modelo>
+		<modelo>PAMPA</modelo>
+		<modelo>PHAETON</modelo>
+		<modelo>RANGER</modelo>
+		<modelo>ROYALE</modelo>
+		<modelo>RURAL</modelo>
+		<modelo>SUPER DELUXE</modelo>
+		<modelo>T</modelo>
+		<modelo>TAURUS</modelo>
+		<modelo>THUNDERBIRD</modelo>
+		<modelo>TRANSIT</modelo>
+		<modelo>TUDOR</modelo>
+		<modelo>VERONA</modelo>
+		<modelo>VERSAILLES</modelo>
+		<modelo>WINDSTAR</modelo>
+	</marca>
+	<marca nomeMarca="HONDA">
+		<modelo>ACCORD</modelo>
+		<modelo>CITY</modelo>
+		<modelo>CIVIC</modelo>
+		<modelo>CRV</modelo>
+		<modelo>FIT</modelo>
+		<modelo>HR-V</modelo>
+		<modelo>LEGEND</modelo>
+		<modelo>PILOT</modelo>
+		<modelo>PRELUDE</modelo>
+	</marca>
+	<marca nomeMarca="HYUNDAI">
+		<modelo>ACCENT</modelo>
+		<modelo>ATOS</modelo>
+		<modelo>AZERA</modelo>
+		<modelo>COUPE</modelo>
+		<modelo>ELANTRA</modelo>
+		<modelo>EQUUS</modelo>
+		<modelo>GALLOPER</modelo>
+		<modelo>GENESIS</modelo>
+		<modelo>GRAND SANTA FE</modelo>
+		<modelo>H1 STAREX</modelo>
+		<modelo>H100</modelo>
+		<modelo>HB20</modelo>
+		<modelo>HB20S</modelo>
+		<modelo>HB20X</modelo>
+		<modelo>HR</modelo>
+		<modelo>I30</modelo>
+		<modelo>I30 CW</modelo>
+		<modelo>IX35</modelo>
+		<modelo>PORTER</modelo>
+		<modelo>SANTA FE</modelo>
+		<modelo>SONATA</modelo>
+		<modelo>TERRACAN</modelo>
+		<modelo>TIBURON</modelo>
+		<modelo>TUCSON</modelo>
+		<modelo>VELOSTER</modelo>
+		<modelo>VERA CRUZ</modelo>
+	</marca>
+	<marca nomeMarca="IVECO">
+		<modelo>DAILY</modelo>
+	</marca>
+	<marca nomeMarca="JAC MOTORS">
+		<modelo>J2</modelo>
+		<modelo>J3</modelo>
+		<modelo>J5</modelo>
+		<modelo>J6</modelo>
+		<modelo>T140</modelo>
+		<modelo>T5</modelo>
+		<modelo>T6</modelo>
+		<modelo>T8</modelo>
+	</marca>
+	<marca nomeMarca="JEEP">
+		<modelo>CHEROKEE</modelo>
+		<modelo>CJ 5</modelo>
+		<modelo>COMMANDER</modelo>
+		<modelo>COMPASS</modelo>
+		<modelo>GRAND CHEROKEE</modelo>
+		<modelo>PATRIOT</modelo>
+		<modelo>RENEGADE</modelo>
+		<modelo>WRANGLER</modelo>
+	</marca>
+	<marca nomeMarca="KIA">
+		<modelo>BESTA</modelo>
+		<modelo>BONGO</modelo>
+		<modelo>CADENZA</modelo>
+		<modelo>CARENS</modelo>
+		<modelo>CARNIVAL</modelo>
+		<modelo>CERATO</modelo>
+		<modelo>CLARUS</modelo>
+		<modelo>MAGENTIS</modelo>
+		<modelo>MOHAVE</modelo>
+		<modelo>OPIRUS</modelo>
+		<modelo>OPTIMA</modelo>
+		<modelo>PICANTO</modelo>
+		<modelo>QUORIS</modelo>
+		<modelo>SEPHIA</modelo>
+		<modelo>SORENTO</modelo>
+		<modelo>SOUL</modelo>
+		<modelo>SPORTAGE</modelo>
+	</marca>
+	<marca nomeMarca="LAND ROVER">
+		<modelo>DEFENDER</modelo>
+		<modelo>DISCOVERY</modelo>
+		<modelo>DISCOVERY 2</modelo>
+		<modelo>DISCOVERY 3</modelo>
+		<modelo>DISCOVERY 4</modelo>
+		<modelo>DISCOVERY SPORT</modelo>
+		<modelo>FREELANDER</modelo>
+		<modelo>FREELANDER 2</modelo>
+		<modelo>RANGE ROVER</modelo>
+		<modelo>RANGE ROVER EVOQUE</modelo>
+		<modelo>RANGE ROVER SPORT</modelo>
+		<modelo>RANGE ROVER VOGUE</modelo>
+	</marca>
+	<marca nomeMarca="MITSUBISHI">
+		<modelo>3000 GT</modelo>
+		<modelo>AIRTREK</modelo>
+		<modelo>ASX</modelo>
+		<modelo>COLT</modelo>
+		<modelo>ECLIPSE</modelo>
+		<modelo>GALANT</modelo>
+		<modelo>GRANDIS</modelo>
+		<modelo>L200</modelo>
+		<modelo>L200 OUTDOOR</modelo>
+		<modelo>L200 SAVANA</modelo>
+		<modelo>L200 TRITON</modelo>
+		<modelo>L300</modelo>
+		<modelo>LANCER</modelo>
+		<modelo>OUTLANDER</modelo>
+		<modelo>PAJERO</modelo>
+		<modelo>PAJERO DAKAR</modelo>
+		<modelo>PAJERO FULL</modelo>
+		<modelo>PAJERO IO</modelo>
+		<modelo>PAJERO TR4</modelo>
+		<modelo>SPACE WAGON</modelo>
+	</marca>
+	<marca nomeMarca="NISSAN">
+		<modelo>300 ZX</modelo>
+		<modelo>350Z</modelo>
+		<modelo>370Z</modelo>
+		<modelo>ALTIMA</modelo>
+		<modelo>ARMADA</modelo>
+		<modelo>FRONTIER</modelo>
+		<modelo>GRAND LIVINA</modelo>
+		<modelo>GT-R</modelo>
+		<modelo>KICKS</modelo>
+		<modelo>LIVINA</modelo>
+		<modelo>MARCH</modelo>
+		<modelo>MAXIMA</modelo>
+		<modelo>MURANO</modelo>
+		<modelo>PATHFINDER</modelo>
+		<modelo>QUEST</modelo>
+		<modelo>SENTRA</modelo>
+		<modelo>TERRANO</modelo>
+		<modelo>SKYLINE</modelo>
+		<modelo>TIIDA</modelo>
+		<modelo>VERSA</modelo>
+		<modelo>XTERRA</modelo>
+		<modelo>X-TRAIL</modelo>
+	</marca>
+	<marca nomeMarca="PEUGEOT">
+		<modelo>106</modelo>
+		<modelo>2008</modelo>
+		<modelo>205</modelo>
+		<modelo>206</modelo>
+		<modelo>207</modelo>
+		<modelo>208</modelo>
+		<modelo>3008</modelo>
+		<modelo>306</modelo>
+		<modelo>307</modelo>
+		<modelo>308</modelo>
+		<modelo>308CC</modelo>
+		<modelo>405</modelo>
+		<modelo>406</modelo>
+		<modelo>407</modelo>
+		<modelo>408</modelo>
+		<modelo>504</modelo>
+		<modelo>508</modelo>
+		<modelo>605</modelo>
+		<modelo>607</modelo>
+		<modelo>BOXER</modelo>
+		<modelo>HOGGAR</modelo>
+		<modelo>PARTNER</modelo>
+		<modelo>RCZ</modelo>
+	</marca>
+	<marca nomeMarca="RENAULT">
+		<modelo>19</modelo>
+		<modelo>CLIO</modelo>
+		<modelo>DAUPHINE</modelo>
+		<modelo>DUSTER</modelo>
+		<modelo>DUSTER OROCH</modelo>
+		<modelo>FLUENCE</modelo>
+		<modelo>GORDINI</modelo>
+		<modelo>GRAND SCENIC</modelo>
+		<modelo>KANGOO</modelo>
+		<modelo>LAGUNA</modelo>
+		<modelo>LOGAN</modelo>
+		<modelo>MASTER</modelo>
+		<modelo>MEGANE</modelo>
+		<modelo>SANDERO</modelo>
+		<modelo>SCENIC</modelo>
+		<modelo>SYMBOL</modelo>
+		<modelo>TRAFIC</modelo>
+		<modelo>TWINGO</modelo>
+	</marca>
+	<marca nomeMarca="TOYOTA">
+		<modelo>4RUNNER</modelo>
+		<modelo>AVALON</modelo>
+		<modelo>BANDEIRANTE</modelo>
+		<modelo>CAMRY</modelo>
+		<modelo>COROLLA</modelo>
+		<modelo>ETIOS</modelo>
+		<modelo>ETIOS CROSS</modelo>
+		<modelo>FIELDER</modelo>
+		<modelo>FJ CRUISER</modelo>
+		<modelo>HIGHLANDER</modelo>
+		<modelo>HILUX</modelo>
+		<modelo>HILUX SW4</modelo>
+		<modelo>LAND CRUISER PRADO</modelo>
+		<modelo>PASEO</modelo>
+		<modelo>PREVIA</modelo>
+		<modelo>PRIUS</modelo>
+		<modelo>RAV4</modelo>
+		<modelo>SEQUOIA</modelo>
+		<modelo>SIENNA</modelo>
+		<modelo>TUNDRA</modelo>
+		<modelo>VENZA</modelo>
+	</marca>
+	<marca nomeMarca="VOLKSWAGEN">
+		<modelo>1300</modelo>
+		<modelo>1500</modelo>
+		<modelo>1600</modelo>
+		<modelo>AMAROK</modelo>
+		<modelo>APOLLO</modelo>
+		<modelo>BORA</modelo>
+		<modelo>BRASILIA</modelo>
+		<modelo>BUGGY</modelo>
+		<modelo>CARAVELLE</modelo>
+		<modelo>CORRADO</modelo>
+		<modelo>CROSS UP</modelo>
+		<modelo>CROSSFOX</modelo>
+		<modelo>EOS</modelo>
+		<modelo>EUROVAN</modelo>
+		<modelo>FOX</modelo>
+		<modelo>FUSCA</modelo>
+		<modelo>GOL</modelo>
+		<modelo>GOLF</modelo>
+		<modelo>JETTA</modelo>
+		<modelo>KARMANN-GHIA</modelo>
+		<modelo>KOMBI</modelo>
+		<modelo>LOGUS</modelo>
+		<modelo>NEW BEETLE</modelo>
+		<modelo>PARATI</modelo>
+		<modelo>PASSAT</modelo>
+		<modelo>PASSAT VARIANT</modelo>
+		<modelo>POINTER</modelo>
+		<modelo>POLO</modelo>
+		<modelo>POLO SEDAN</modelo>
+		<modelo>QUANTUM</modelo>
+		<modelo>SANTANA</modelo>
+		<modelo>SAVEIRO</modelo>
+		<modelo>SCIROCCO</modelo>
+		<modelo>SP2</modelo>
+		<modelo>SPACE CROSS</modelo>
+		<modelo>SPACEFOX</modelo>
+		<modelo>TIGUAN</modelo>
+		<modelo>TL</modelo>
+		<modelo>TOUAREG</modelo>
+		<modelo>UP</modelo>
+		<modelo>VAN</modelo>
+		<modelo>VARIANT</modelo>
+		<modelo>VARIANT II</modelo>
+		<modelo>VOYAGE</modelo>
+	</marca>
+</infosVeiculos>

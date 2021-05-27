@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<configuracaoGmail>
+	<mail_smtp_host>smtp.gmail.com</mail_smtp_host>
+	<mail_smtp_socketFactory_port>465</mail_smtp_socketFactory_port>
+	<mail_smtp_socketFactory_class>javax.net.ssl.SSLSocketFactory</mail_smtp_socketFactory_class>
+	<mail_smtp_auth>true</mail_smtp_auth>
+	<mail_smtp_port>465</mail_smtp_port>
+	<mail_user>felipenascimento411@gmail.com</mail_user>
+	<mail_password>felipelipe26</mail_password>
+</configuracaoGmail>

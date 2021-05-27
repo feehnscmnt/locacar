@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<ufs>
+	<uf>AC</uf>
+	<uf>AL</uf>
+	<uf>AP</uf>
+	<uf>AM</uf>
+	<uf>BA</uf>
+	<uf>CE</uf>
+	<uf>DF</uf>
+	<uf>ES</uf>
+	<uf>GO</uf>
+	<uf>MA</uf>
+	<uf>MT</uf>
+	<uf>MS</uf>
+	<uf>MG</uf>
+	<uf>PA</uf>
+	<uf>PB</uf>
+	<uf>PR</uf>
+	<uf>PE</uf>
+	<uf>PI</uf>
+	<uf>RJ</uf>
+	<uf>RN</uf>
+	<uf>RS</uf>
+	<uf>RO</uf>
+	<uf>RR</uf>
+	<uf>SC</uf>
+	<uf>SP</uf>
+	<uf>SE</uf>
+	<uf>TO</uf>
+</ufs>

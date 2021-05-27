@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<access>
+	<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+	<acesso>jdbc:sqlserver://localhost:1433;databaseName=LOCACAR;</acesso>
+	<login>user=sa;</login>
+	<senha>password=123456</senha>
+</access>
