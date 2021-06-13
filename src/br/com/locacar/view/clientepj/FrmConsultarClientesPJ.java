@@ -30,13 +30,17 @@ public class FrmConsultarClientesPJ extends JDialog {
 	private JPopupMenu popup;
 	private String cpf;
 	
-	public FrmConsultarClientesPJ() { LOG.info("View para consulta de clientes pessoa física iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmConsultarClientesPJ() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setSize(443, 450);
 		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setTitle("LOCACAR - Consultar clientes pessoa jurídica");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -189,6 +193,8 @@ public class FrmConsultarClientesPJ extends JDialog {
 				btnExcluir.setEnabled(false);
 			}
 		});
+		
+		LOG.info("View para consulta de clientes pessoa física iniciado com sucesso!");
 	}
 	
 	private void noMove() {

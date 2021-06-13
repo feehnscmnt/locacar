@@ -2,13 +2,13 @@ package br.com.locacar.action.locacao;
 
 import br.com.locacar.view.modal.BoxModalMensagens.*;
 import br.com.locacar.model.locacao.*;
+import br.com.locacar.model.veiculo.*;
 import br.com.locacar.view.locacao.*;
 import br.com.locacar.model.modal.*;
-import br.com.locacar.model.veiculo.VeiculosModel;
 import br.com.locacar.view.modal.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import br.com.locacar.dao.*;
 import java.awt.event.*;
 import javax.swing.*;

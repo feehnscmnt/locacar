@@ -52,7 +52,7 @@ public abstract class ActionCapturarImagem implements ActionListener, PropertyCh
 						ImageIO.write((BufferedImage) img, "jpg", imagem);
 					} catch(IOException e) {
 						LOG.error("Erro de sistema: {}", e.getMessage());
-						JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema " + e.getMessage().toUpperCase())).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
+						JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema ".concat(e.getMessage().toUpperCase()))).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
 					}
 				}
 				btnCapturarImagem.setText("Capturar Imagem");

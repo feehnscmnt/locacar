@@ -3,10 +3,10 @@ package br.com.locacar.view.clientepj;
 import br.com.locacar.action.componentes.*;
 import br.com.locacar.view.componentes.*;
 import br.com.locacar.action.clientepj.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.action.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import br.com.locacar.util.*;
 import javax.swing.border.*;
 import javax.swing.text.*;
@@ -31,13 +31,17 @@ public class FrmClientePJ extends JDialog {
 	public JButton btnSalvar, btnFechar;
 	private JProgressBar progresso;
 	
-	public FrmClientePJ() { LOG.info("View de cadastros e alterações dos clientes pessoa jurídica iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmClientePJ() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setLayout(null);
 		setSize(792, 465);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		setTitle("LOCACAR - Cadastrar novo cliente pessoa jurídica");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -383,6 +387,8 @@ public class FrmClientePJ extends JDialog {
 				}.start();
 			}
 		});
+		
+		LOG.info("View de cadastros e alterações dos clientes pessoa jurídica iniciado com sucesso!");
 	}
 	
 	private void noMove() {

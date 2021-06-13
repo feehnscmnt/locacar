@@ -28,13 +28,17 @@ public class FrmConsultarUsuarios extends JDialog {
 	private JLabel lblUsuario;
 	private JPopupMenu popup;
 	
-	public FrmConsultarUsuarios() { LOG.info("View para consulta de usuários iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmConsultarUsuarios() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setSize(509, 430);
 		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setTitle("LOCACAR - Consultar usuários");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -144,6 +148,8 @@ public class FrmConsultarUsuarios extends JDialog {
 				btnExcluir.setEnabled(false);
 			}
 		});
+		
+		LOG.info("View para consulta de usuários iniciado com sucesso!");
 	}
 	
 	private void noMove() {

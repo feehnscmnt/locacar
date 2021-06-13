@@ -1,4 +1,4 @@
-package br.com.locacar.view.opcao;
+package br.com.locacar.enums;
 
 public enum Opcoes {
 	SALVAR(1), ALTERAR(2), VIEW_CADASTRO(3), VIEW_CONSULTA(4);

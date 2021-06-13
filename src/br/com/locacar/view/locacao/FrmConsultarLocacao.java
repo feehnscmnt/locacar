@@ -27,13 +27,17 @@ public class FrmConsultarLocacao extends JDialog {
 	JProgressBar progresso;
 	JPopupMenu popup;
 	
-	public FrmConsultarLocacao() { LOG.info("View para consulta de locações iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmConsultarLocacao() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setSize(659, 430);
 		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setTitle("LOCACAR - Consultar locações");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -141,6 +145,8 @@ public class FrmConsultarLocacao extends JDialog {
 				btnDarBaixa.setEnabled(false);
 			}
 		});
+		
+		LOG.info("View para consulta de locações iniciado com sucesso!");
 	}
 	
 	private void noMove() {

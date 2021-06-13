@@ -24,7 +24,7 @@ public class PathFilesUtil {
 			is = new FileInputStream(path.concat("/resource/configs/").concat(file));
 		} catch (URISyntaxException e) {
 			LOG.error("Erro de sistema: {}", e.getMessage());
-			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema " + e.getMessage().toUpperCase())).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema ".concat(e.getMessage().toUpperCase()))).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
 		} catch(FileNotFoundException e) {
 			LOG.error("O arquivo {} não foi localizado! Exception: {}", file, e.getMessage());
 			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("arqNaoEncontrado", file)).getText(), "AVISO", JOptionPane.WARNING_MESSAGE);
@@ -39,7 +39,7 @@ public class PathFilesUtil {
 			path = Paths.get(PathFilesUtil.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent().toString();
 		} catch (URISyntaxException e) {
 			LOG.error("Erro de sistema: {}", e.getMessage());
-			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema " + e.getMessage().toUpperCase())).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema ".concat(e.getMessage().toUpperCase()))).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
 		}
 		return path.concat("/resource");
 	}

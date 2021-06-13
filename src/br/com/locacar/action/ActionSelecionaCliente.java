@@ -2,8 +2,8 @@ package br.com.locacar.action;
 
 import br.com.locacar.model.modal.*;
 import br.com.locacar.view.modal.*;
-import br.com.locacar.view.opcao.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import java.awt.event.*;
 import javax.swing.*;
 

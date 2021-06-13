@@ -22,15 +22,17 @@ public class FrmLogin extends JFrame {
 	public static JComboBox<Object> jcbPerfilUsuario;
 	public static JPasswordField txtSenha;
 	private JCheckBox chBoxVisualizaSenha;
-	public static String USUARIO_LOGADO;
 	private JButton btnLogar, btnFechar;
 	public static JTextField txtUsuario;
-	private JProgressBar progresso;
-	private JPanel pcbImagem;
+	public static String usuarioLogado;
+	private JPanel panel, pcbImagem;
 	private Object perfil;
 	private String senha;
 	
-	public FrmLogin() { LOG.info("View de autenticação iniciado com sucesso!"); initComponents(); noMove(); }
+	public FrmLogin() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		getContentPane().setLayout(null);
@@ -43,10 +45,6 @@ public class FrmLogin extends JFrame {
 		URL img = getClass().getClassLoader().getResource("br/com/locacar/files/images/imgLogoTopoForms.png");
 		Image icone = Toolkit.getDefaultToolkit().getImage(img);
 		setIconImage(icone);
-		
-		progresso = new BarraProgresso();
-		progresso.setBounds(100, 44, 245, 58);
-		progresso.setVisible(false);
 		
 		lblUsuario = new JLabel("Usuário:");
 		lblUsuario.setBounds(10, 25, 60, 10);
@@ -85,17 +83,11 @@ public class FrmLogin extends JFrame {
 		btnLogar.setBounds(85, 130, 50, 70);
 		btnLogar.addActionListener(new ActionAutenticar() {
 			public void actionPerformed(ActionEvent e) {
-				USUARIO_LOGADO = txtUsuario.getText();
+				panel = new BlockViews();
+				usuarioLogado = txtUsuario.getText();
 				perfil = jcbPerfilUsuario.getSelectedItem().toString();
 				senha = String.valueOf(txtSenha.getPassword()).toLowerCase();
-				new Thread() {
-					public void run() {
-						progresso.setVisible(true);
-						progresso.setString("Autenticando... Aguarde!");
-						autenticar(FrmLogin.this, USUARIO_LOGADO, perfil, senha, getRootPane());
-						progresso.setVisible(false);
-					}
-				}.start();
+				autenticar(FrmLogin.this, panel, usuarioLogado, perfil, senha, getRootPane());
 			}
 		});
 		
@@ -121,7 +113,6 @@ public class FrmLogin extends JFrame {
 		lblImgLogin.setIcon(icnLogin);
 		pcbImagem.add(lblImgLogin);
 		
-		add(progresso);
 		add(lblUsuario);
 		add(txtUsuario);
 		add(lblPerfil);
@@ -138,6 +129,8 @@ public class FrmLogin extends JFrame {
 				PopularCombos.popularComboPerfilUsers(jcbPerfilUsuario);
 			}
 		});
+		
+		LOG.info("View de autenticação iniciado com sucesso!");
 	}
 	
 	private void noMove() {

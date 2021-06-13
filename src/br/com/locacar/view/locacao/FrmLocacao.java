@@ -6,9 +6,9 @@ import br.com.locacar.action.locacao.*;
 import br.com.locacar.action.veiculo.*;
 import br.com.locacar.action.email.*;
 import br.com.locacar.model.modal.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import com.toedter.calendar.*;
 import br.com.locacar.util.*;
 import br.com.locacar.view.*;
@@ -37,13 +37,17 @@ public class FrmLocacao extends JDialog {
 	public JButton btnBuscarCliente, btnBuscarVeiculo, btnCalcular, btnSalvar, btnFechar;
 	JProgressBar progresso;
 	
-	public FrmLocacao() { LOG.info("View de cadastro de locações iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmLocacao() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		getContentPane().setLayout(null);
 		setSize(710, 568);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		setTitle("LOCACAR - Cadastrar nova locação");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -592,7 +596,7 @@ public class FrmLocacao extends JDialog {
 								public void run() {
 									progresso.setVisible(true);
 									progresso.setString("Gerando ordem de serviço...");
-									GeradorOrdemServico.gerarOs(numeroLocacao, cpfCnpj, nome, endereco, bairro, cidade, email, placa, marca, modelo, cor, ano, combustivel, renavam, kilometragem, getDataLocacao(), horaLocacao, getDataRetornoLocacao(), horaRetornoLocacao, localEntrega, observacoes, qtdeDias, valorDia, valorTaxaServico, valorProtecao, valorTotal, FrmLogin.USUARIO_LOGADO);
+									GeradorOrdemServico.gerarOs(numeroLocacao, cpfCnpj, nome, endereco, bairro, cidade, email, placa, marca, modelo, cor, ano, combustivel, renavam, kilometragem, getDataLocacao(), horaLocacao, getDataRetornoLocacao(), horaRetornoLocacao, localEntrega, observacoes, qtdeDias, valorDia, valorTaxaServico, valorProtecao, valorTotal, FrmLogin.usuarioLogado);
 									progresso.setString("Enviando e-mail para o cliente...");
 									EnviarEmail.enviarEmail(email, numeroLocacao);
 									progresso.setString("Salvando locação no banco de dados...");
@@ -704,6 +708,8 @@ public class FrmLocacao extends JDialog {
 				}.start();
 			}
 		});
+		
+		LOG.info("View de cadastro de locações iniciado com sucesso!");
 	}
 	
 	private void limpaCampos() {

@@ -3,9 +3,9 @@ package br.com.locacar.view.veiculo;
 import br.com.locacar.action.componentes.*;
 import br.com.locacar.view.componentes.*;
 import br.com.locacar.action.veiculo.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import br.com.locacar.util.*;
 import javax.swing.border.*;
 import java.awt.event.*;
@@ -29,7 +29,10 @@ public class FrmVeiculos extends JDialog {
 	private String placa, marca, modelo, versao, anoFab, anoMod, cor, combustivel, transmissao, renavam, portas, alarme, travas, sensorRe, bancosCouro, freiosAbs, airbags, cameraRe, multimidia, bancosRegulaveis, vidrosEletricos, direcaoHidraulica, direcaoEletrica, situacao, codigo;
 	private JProgressBar progresso;
 	
-	public FrmVeiculos() { LOG.info("View de cadastros e alterações dos veículos iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmVeiculos() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		getContentPane().setLayout(null);
@@ -419,6 +422,8 @@ public class FrmVeiculos extends JDialog {
 				}.start();
 			}
 		});
+		
+		LOG.info("View de cadastros e alterações dos veículos iniciado com sucesso!");
 	}
 	
 	private void noMove() {

@@ -8,7 +8,7 @@
 	<appenders>
 		<console name="console" target="SYSTEM_OUT">
 			<patternLayout>
-				<pattern>%d{dd/MM/yyyy HH:mm:ss} %-10p - %-30logger{1} - %message%n</pattern>
+				<pattern>%d{dd/MM/yyyy HH:mm:ss} %-10p - %-30method - %-30logger{1} - %message%n</pattern>
 			</patternLayout>
 		</console>
 		<routing name="routing">
@@ -16,7 +16,7 @@
 				<route key="$${ctx:ROUTINGKEY}">
 					<rollingFile name="Rolling-Default" fileName="${folder}/locacarDesktopLog.log" filePattern="${folder}/locacarDesktop-%i.log.zip">
 						<patternLayout>
-							<pattern>%d{dd/MM/yyyy HH:mm:ss} %-10p - %-30logger{1} - %message%n</pattern>
+							<pattern>%d{dd/MM/yyyy HH:mm:ss} %-10p - %-30method - %-30logger{1} - %message%n</pattern>
 						</patternLayout>
 						<policies>
 							<sizeBasedTriggeringPolicy size="${size}"/>

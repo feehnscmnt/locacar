@@ -5,10 +5,10 @@ import br.com.locacar.view.locacao.*;
 import br.com.locacar.view.usuario.*;
 import br.com.locacar.view.veiculo.*;
 import br.com.locacar.model.modal.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.action.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import br.com.locacar.util.*;
 import javax.swing.border.*;
 import javax.swing.Timer;
@@ -32,7 +32,14 @@ public class FrmPrincipal extends JFrame {
 	private JPanel barraInferior;
 	private Calendar cal;
 	
-	public FrmPrincipal() { LOG.info("View principal iniciado com sucesso!"); initComponents(); noMove(); getDayOfWeek(); getDate(); initClock(); getInfosSystem(); }
+	public FrmPrincipal() {
+		initComponents();
+		getInfosSystem();
+		getDayOfWeek();
+		initClock();
+		getDate();
+		noMove();
+	}
 	
 	private void initComponents() {
 		URL img = new PathFilesUtil().getIconTopo();
@@ -49,7 +56,7 @@ public class FrmPrincipal extends JFrame {
         barraInferior.setPreferredSize(new Dimension(this.getWidth(), 26));
         barraInferior.setLayout(new BoxLayout(barraInferior, BoxLayout.X_AXIS));
         
-        lblUsuarioLogado = new JLabel("OLÁ SR(A) ".concat(FrmLogin.USUARIO_LOGADO).concat(", ").concat(getGreeting()));
+        lblUsuarioLogado = new JLabel("OLÁ SR(A) ".concat(FrmLogin.usuarioLogado).concat(", ").concat(getGreeting()));
         lblUsuarioLogado.setFont(new Font("Segoe UI", Font.BOLD, 12));
         
         lblDiaSemana = new JLabel();
@@ -125,6 +132,8 @@ public class FrmPrincipal extends JFrame {
 		barraInferior.add(lblHora);
 		barraInferior.add(lblInfosSistema);
 		barraInferior.add(lblLocacar);
+		
+		LOG.info("View principal iniciado com sucesso!");
 	}
 	
 	private void noMove() {
@@ -208,7 +217,7 @@ public class FrmPrincipal extends JFrame {
 			lblInfosSistema.setText("HOSTNAME: ".concat(hostname.toUpperCase()).concat(" | IP: ").concat(ip).concat(" | SISTEMA: ").concat(props.getProperty("os.name").toUpperCase()).concat(" | VERSÃO JAVA: ").concat(getJavaVersion()).concat(" | "));
 		} catch(Exception e) {
 			LOG.info("Não foi possível obter as informações do sistema! Exception: {}", e.getMessage());
-			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("infosSistema ") + e.getMessage().toUpperCase()).getText(), "AVISO", JOptionPane.WARNING_MESSAGE);
+			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("infosSistema ").concat(e.getMessage().toUpperCase())).getText(), "AVISO", JOptionPane.WARNING_MESSAGE);
 		}
 	}
 	

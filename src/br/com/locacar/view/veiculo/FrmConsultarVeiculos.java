@@ -27,13 +27,17 @@ public class FrmConsultarVeiculos extends JDialog {
 	private JPopupMenu popup;
 	private JLabel lblPlaca;
 	
-	public FrmConsultarVeiculos() { LOG.info("View para consulta de veículos iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmConsultarVeiculos() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setSize(659, 430);
 		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setTitle("LOCACAR - Consultar veículos");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -143,6 +147,8 @@ public class FrmConsultarVeiculos extends JDialog {
 				btnExcluir.setEnabled(false);
 			}
 		});
+		
+		LOG.info("View para consulta de veículos iniciado com sucesso!");
 	}
 	
 	private void noMove() {

@@ -27,7 +27,7 @@ public class Bundle {
 			return "Chave: ".concat(key);
 		} catch(NullPointerException e) {
 			LOG.error("Erro: {}", e.getMessage());
-			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema " + e.getMessage().toUpperCase())).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, new MensagensModel(Bundle.getString("erroSistema ".concat(e.getMessage().toUpperCase()))).getText(), "ERRO", JOptionPane.ERROR_MESSAGE);
 			return "";
 		}
 	}

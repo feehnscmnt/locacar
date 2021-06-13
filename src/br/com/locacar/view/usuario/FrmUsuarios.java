@@ -3,9 +3,9 @@ package br.com.locacar.view.usuario;
 import br.com.locacar.action.componentes.*;
 import br.com.locacar.view.componentes.*;
 import br.com.locacar.action.usuario.*;
-import br.com.locacar.view.opcao.*;
 import org.apache.logging.log4j.*;
 import br.com.locacar.domain.*;
+import br.com.locacar.enums.*;
 import br.com.locacar.util.*;
 import javax.swing.border.*;
 import java.awt.event.*;
@@ -28,13 +28,17 @@ public class FrmUsuarios extends JDialog {
 	public JButton btnSalvar, btnFechar;
 	private JProgressBar progresso;
 	
-	public FrmUsuarios() { LOG.info("View de cadastros e alterações dos usuários iniciado com sucesso!"); setModal(true); initComponents(); noMove(); }
+	public FrmUsuarios() {
+		initComponents();
+		noMove();
+	}
 	
 	private void initComponents() {
 		setLayout(null);
 		setSize(413, 286);
 		setResizable(false);
 		setLocationRelativeTo(null);
+		setModal(true);
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		setTitle("LOCACAR - Cadastrar novo usuário");
 		getContentPane().setBackground(new Color(153, 180, 209));
@@ -183,6 +187,8 @@ public class FrmUsuarios extends JDialog {
 				}.start();
 			}
 		});
+		
+		LOG.info("View de cadastros e alterações dos usuários iniciado com sucesso!");
 	}
 	
 	private void noMove() {

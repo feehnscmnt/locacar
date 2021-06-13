@@ -1,7 +1,7 @@
 package br.com.locacar.view.modal;
 
 import br.com.locacar.model.modal.*;
-import br.com.locacar.view.opcao.*;
+import br.com.locacar.enums.*;
 import javax.swing.Timer;
 import java.awt.event.*;
 import javax.swing.*;
