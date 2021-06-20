@@ -7,7 +7,8 @@ import org.apache.logging.log4j.*;
 import java.sql.*;
 
 /**
- * Classe dao responsável pelas tarefas no banco de dados relacionadas às locações (cadastros, consultas, alterações e exclusões)!
+ * Classe dao responsável pelas tarefas no banco de dados
+ * relacionadas às locações (cadastros, consultas, alterações e exclusões)!
  * @author Felipe Nascimento
  */
 public class DAOLocacao implements Locacao {

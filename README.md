@@ -1,1 +1,1 @@
-Locacar - Software para gerenciamento de locaÃ§Ãµes de veÃ­culos
+Locacar - Software para gerenciamento de locações de veículos

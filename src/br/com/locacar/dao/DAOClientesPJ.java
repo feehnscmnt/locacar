@@ -6,7 +6,8 @@ import org.apache.logging.log4j.*;
 import java.sql.*;
 
 /**
- * Classe dao responsável pelas tarefas no banco de dados relacionadas aos clientes pessoa jurídica (cadastros, consultas, alterações e exclusões)!
+ * Classe dao responsável pelas tarefas no banco de dados relacionadas aos clientes
+ * pessoa jurídica (cadastros, consultas, alterações e exclusões)!
  * @author Felipe Nascimento
  */
 public class DAOClientesPJ implements ClientesPJ {

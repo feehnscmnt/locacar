@@ -19,7 +19,7 @@ public class Splash extends JWindow {
 	
 	private void initComponents() {
 		JPanel content = (JPanel) getContentPane();
-		content.setBackground(new Color(224, 238, 224));
+		content.setBackground(new Color(175, 238, 238));
 		Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
 		int x = (screen.width - width) / 2;
 		int y = (screen.height - height) / 2;

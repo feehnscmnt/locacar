@@ -15,9 +15,9 @@ import java.sql.*;
  */
 public class DAOAccessManager implements ConfigDao {
 	private static final Logger LOG = LogManager.getLogger(DAOAccessManager.class.getName());
-	private ConfigDaoModel configDaoModel;
+	private static ConfigDaoModel configDaoModel;
 	
-	private Connection openConnection() throws JAXBException, ClassNotFoundException, SQLException {
+	public static Connection openConnection() throws JAXBException, ClassNotFoundException, SQLException {
 		configDaoModel = new ConfigDaoModel();
 		Connection con = null;
 		LOG.info("Realizando conexão com o banco de dados...");
